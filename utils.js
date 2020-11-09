@@ -1,7 +1,7 @@
 
 
 
-
+/* 1 */
 function matrixProduct(mat1, mat2) {
     let product = [];
     for (let i = 0; i < mat1.length; ++i) {
@@ -30,10 +30,6 @@ console.log(matrixProduct(mat1, mat2))
 
 
 
-
-
-
-
 // let matProduct = matrixProduct(mat1, mat2)
 // console.log(matProduct)
 
@@ -42,7 +38,7 @@ console.log(matrixProduct(mat1, mat2))
 
 
 
-
+/* 2 */
 function sumOfMatrices(mat1, mat2) {
     if (mat1.length !== mat2.length || mat1[0].length !== mat2[0].length) {
         console.log('Your matrices does not contain the same number of elements!');
@@ -71,6 +67,7 @@ console.log(sumOfMatrices(mat1, mat2));
 
 
 
+/* 3 */
 function sumOfArray(arr) {
     let value = 0;
     for (let i = 0; i < arr.length; ++i) {
@@ -108,3 +105,4 @@ module.exports = {
     sumOfMatrices,
     sumOfEachRow
 }
+
