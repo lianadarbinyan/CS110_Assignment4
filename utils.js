@@ -30,12 +30,6 @@ console.log(matrixProduct(mat1, mat2))
 
 
 
-// let matProduct = matrixProduct(mat1, mat2)
-// console.log(matProduct)
-
-
-
-
 
 
 /* 2 */
