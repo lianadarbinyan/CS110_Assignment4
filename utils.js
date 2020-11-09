@@ -77,7 +77,7 @@ function sumOfEachRow(mat) {
     let k = 0;
     let arr2 = [];
     for (let row = 0; row < mat.length; ++row) {
-        k += sumOfArray(mat[row]);
+        k = sumOfArray(mat[row]);
         arr2.push(k)
     }
     return arr2;
