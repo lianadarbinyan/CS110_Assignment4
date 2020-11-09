@@ -38,12 +38,15 @@ function sumOfMatrices(mat1, mat2) {
         console.log('Your matrices does not contain the same number of elements!');
         return;
     }
+    let mat3 = []
     for (let row = 0; row < mat1.length; ++row) {
         for (let col = 0; col < mat2[0].length; ++col) {
-            mat1[row][col] += mat2[row][col]
+            let sum = 0
+            sum = mat1[row][col] + mat2[row][col]
+            mat3.push(sum);
         }
     }
-    return mat1;
+    return mat3;
 }
 
 // let mat1 = [
